@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 個人設定與敏感資料
+config.json
+*.xlsx
+
+# 自動產生的截圖與學習樣本
+voting_records/
+截圖儲存區/
+calibration_map.png
+learned_*.png
+
+# PyInstaller 產出
+dist/
+build/
+*.exe
+
+# 系統檔案
+.DS_Store
+Thumbs.db
